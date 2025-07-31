@@ -25,10 +25,10 @@ jobs:
           cache: "npm"
 
       - name: Install Dependencies
-        run: npm run install:all 
+        run: npm install --legacy-peer-deps && cd frontend && npm install --legacy-peer-deps
 
       - name: Build Frontend
-        run: npm run build  
+        run: npm run build  # Runs the build command from the root package.json
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
