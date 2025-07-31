@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/Pukar9842/cycle-renting-dapp/frontend.git/static/js/main.7b778e58.js",
-    "index.html": "/Pukar9842/cycle-renting-dapp/frontend.git/index.html",
-    "main.7b778e58.js.map": "/Pukar9842/cycle-renting-dapp/frontend.git/static/js/main.7b778e58.js.map"
+    "main.js": "/cycle-renting-dapp/static/js/main.6b65973e.js",
+    "index.html": "/cycle-renting-dapp/index.html",
+    "main.6b65973e.js.map": "/cycle-renting-dapp/static/js/main.6b65973e.js.map"
   },
   "entrypoints": [
-    "static/js/main.7b778e58.js"
+    "static/js/main.6b65973e.js"
   ]
 }
