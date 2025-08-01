@@ -1,6 +1,6 @@
 
 
-### 1.1 Introduction
+### Introduction
 
 The Cycle Rental dApp is a decentralized application built on the Ethereum blockchain that enables peer-to-peer cycle rentals. The system eliminates intermediaries by using smart contracts to facilitate secure, transparent, and automated rental transactions between cycle owners and renters.
 
@@ -53,21 +53,21 @@ module.exports = {
 };
 ```
 
-#### 9.3.1 Start Local Blockchain
+####  Start Local Blockchain
 
 ```bash
 # Start Hardhat local network
 npx hardhat node
 ```
 
-#### 9.3.2 Deploy Smart Contracts
+####  Deploy Smart Contracts
 
 ```bash
 # Deploy to local network
 npx hardhat run scripts/deploy.js --network localhost
 ```
 
-#### 9.3.3 Start Frontend
+####  Start Frontend
 
 ```bash
 # Start React development server
